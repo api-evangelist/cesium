@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cesium is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://cesium.com/
+Cesium provides an open platform for 3D geospatial applications, offering tools like CesiumJS, Cesium ion, and integrations for Unity, Unreal, and Omniverse. It serves developers, enterprises, and government agencies with streaming 3D Tiles, curated global content, and AI‑enabled workflows, enabling visualization, analysis, and design of complex spatial data.
+
+**Areas:** Company · Geospatial · 3D · Platform · Open Source
+
+## Cesium on APIs.io
+
+Everything profiled for Cesium is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cesium/](https://apis.io/providers/cesium/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Cesium ion API](https://apis.io/apis/cesium/cesium-ion-api/) — Cesium ion REST API for tiling and streaming capabilities
+- [Cesium Archives API](https://apis.io/apis/cesium/cesium-archives-api/) — Archives allow you to make downloadable versions of your assets for offline use or hosting outside of Cesium ion. With archives you can: * Create a full…
+- [Cesium Asset Elements API](https://apis.io/apis/cesium/cesium-asset-elements-api/) — The Asset Elements API provides a mechanism to query individual elements within an asset.
+- [Cesium Assets API](https://apis.io/apis/cesium/cesium-assets-api/) — Whether you have imagery, terrain, 3D buildings, point clouds, photogrammetry, or one of the many other types of data we support, ion creates what we refer…
+- [Cesium Experimental API](https://apis.io/apis/cesium/cesium-experimental-api/) — Experimental API lets users test emerging capabilities and help shape future improvements. These endpoints are not intended for production use and may be…
+- [Cesium Exports API](https://apis.io/apis/cesium/cesium-exports-api/) — Allows you to export the files for a particular asset to an Amazon S3 bucket of your choice. These files can then be hosted through a custom server or…
+- [Cesium Labels API](https://apis.io/apis/cesium/cesium-labels-api/) — Labels let you organize assets and stories with reusable metadata tags. The Labels API provides a mechanism to list, create, update, and delete account…
+- [Cesium OAuth API](https://apis.io/apis/cesium/cesium-oauth-api/) — The Oauth API provides a mechanism to allow third-party applications to access a user's ion account data through the Oauth 2.0 authorization framework.
+- [Cesium Tokens API](https://apis.io/apis/cesium/cesium-tokens-api/) — The Tokens API provides a mechanism to create and manage access tokens. Access tokens are used to give applications access to your ion account, including…
+- [Cesium User API](https://apis.io/apis/cesium/cesium-user-api/) — Routes related to the currently authenticated account.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Archive Metadata](https://apis.io/schemas/cesium/cesium-archive-metadata2/)
+- [Asset Endpoint](https://apis.io/schemas/cesium/cesium-asset-endpoint/)
+- [Asset Metadata](https://apis.io/schemas/cesium/cesium-asset-metadata/)
+- [External Asset Endpoint](https://apis.io/schemas/cesium/cesium-external-asset-endpoint/)
+- [Token Metadata](https://apis.io/schemas/cesium/cesium-token-metadata/)
+- [Token Metadata](https://apis.io/schemas/cesium/cesium-token-metadata-default-token/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cesium Context](https://apis.io/jsonld/cesium/cesium-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cesium API Rules](https://apis.io/rules/cesium/cesium-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cesium Domain Security](https://apis.io/security/cesium/cesium-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cesium Plans Pricing](https://apis.io/plans/cesium/cesium-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cesium.com/)
+- [Pricing](https://cesium.com/platform/cesium-ion/pricing/)
+- [Sign up](https://cesium.com/ion/signup)
+- [Blog](https://cesium.com/blog/)
+- [GitHub](https://github.com/CesiumGS)
+- [Status](https://status.cesium.com/)
+
+## API Evangelist rating
+
+**Kin Score 43.7** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 67.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 55.3 |
+
+**Agent readiness 31.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cesium/](https://apis.io/providers/cesium/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cesium: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cesium/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
